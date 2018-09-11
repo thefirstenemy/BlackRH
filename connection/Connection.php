@@ -1,7 +1,8 @@
 <?php
+require_once('config.php');
 class Connection{
 	public static function getConnection(){
-		$conn = new PDO('mysql:host=127.0.0.1;dbname=blackrh', 'root','')
+		$conn = new PDO(DB_DRIVE.':host='.DB_HOSTNAME.';dbname='.DB_DATABASE, DB_USERNAME,DB_PASSWORD);
 		return $conn;
 	}
 }
