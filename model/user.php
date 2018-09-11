@@ -1,5 +1,5 @@
 <?php
-require_once ('');
+
 class User(){	
 	private $id;
 	private $firstName;
@@ -44,7 +44,6 @@ class User(){
 	public function setEmail($email){
 		$this->email = $email;
 	}
-
 
 	public function listUsers(){
 		query = "SELECT id, name FROM users";
