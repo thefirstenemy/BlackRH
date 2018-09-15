@@ -11,18 +11,20 @@
     <title>BlackRH</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="../style/theme/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style/theme/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Custon BlackRH -->
+    <link href="style/blackrh_style.css" rel="stylesheet">
     <!-- Custom fonts for this template -->
-    <link href="../style/theme/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="style/theme/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-
+    
     <!-- Plugin CSS -->
-    <link href="../style/theme/vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <link href="style/theme/vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="../style/theme/css/creative.min.css" rel="stylesheet">
+    <link href="style/theme/css/creative.min.css" rel="stylesheet">
 
   </head>
 
@@ -36,18 +38,18 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
+          <ul class="navbar-nav ml-auto ">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">Sobre</a>
+              <a class="nav-link js-scroll-trigger brh-header-font-color" href="#about">Sobre</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">Serviços</a>
+              <a class="nav-link js-scroll-trigger brh-header-font-color" href="#services">Serviços</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+              <a class="nav-link js-scroll-trigger brh-header-font-color" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contato</a>
+              <a class="nav-link js-scroll-trigger brh-header-font-color" href="#contact">Contato</a>
             </li>
           </ul>
         </div>
@@ -58,33 +60,62 @@
       <div class="container my-auto">
         <div class="row">
           <div class="col-lg-10 mx-auto">
-            <h1 class="text-uppercase">
-              <strong>NOVAS OPORTUNIDADES DE TRABALHO, TODOS OS DIAS!!!</strong>
+            <h1 class="text-uppercaser brh-header-font-color">
+              <strong>SUAS OPORTUNIDADES DE TRABALHO ESTÃO AQUI</strong>
             </h1>
             <hr>
           </div>
           <div class="col-lg-8 mx-auto">
-            <p class="text-faded mb-5">Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p>
-            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+            <p class="text-faded mb-5 brh-header-font-color">Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p>
+            <a class="btn brh-button-color btn-xl js-scroll-trigger" href="#about">Leia Mais</a>
           </div>
         </div>
       </div>
     </header>
 
-    <section class="bg-primary" id="about">
+    <section class="brh-background-color" id="about">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading text-white">We've got what you need!</h2>
+            <h2 class="section-heading text-white">Nós podemos fazer isso juntos!</h2>
             <hr class="light my-4">
-            <p class="text-faded mb-4">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
-            <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a>
+            <p class="text-faded mb-4">
+              Baseado na idéia de "Black Money", a Black RH trás as oportunidades sócio-culturais 
+              unidas com as econômico-profissionais, integrando os talentos afro-brasileiros com as empresas de visão
+              e inclusão social, modificando assim o cenário do mercado de trabalho, e abrindo novas oportunidades!
+            </p>
+            <a class="btn btn-light btn-xl js-scroll-trigger" href="#info">CADASTRE-SE AGORA!</a>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="services">
+    <section id="info">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading"></h2>
+            <form>
+              <div class="form-group">                
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" 
+                placeholder="Nome">                
+              </div>
+              <div class="form-group">                
+                <input type="email" class="form-control" id="exampleInputPassword1" 
+                placeholder="Email">
+                <small id="emailHelp" class="form-text text-muted">Fique tranquilo(a), nós nunca enviamos span's para sua caixa postal.</small>
+              </div>
+              <div class="form-check">                
+              </div>
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+            <hr class="my-4">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section id="services">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
@@ -125,14 +156,14 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <section class="p-0" id="portfolio">
       <div class="container-fluid p-0">
         <div class="row no-gutters popup-gallery">
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="../style/theme/img/portfolio/fullsize/businessman.jpg">
-              <img class="img-fluid" src="../style/theme/img/portfolio/fullsize/businessman.jpg" alt="">
+            <a class="portfolio-box" href="style/theme/img/portfolio/fullsize/businessman.jpg">
+              <img class="img-fluid" src="style/theme/img/portfolio/fullsize/businessman.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
@@ -146,8 +177,8 @@
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="../style/theme/img/portfolio/fullsize/negro-job.jpg">
-              <img class="img-fluid" src="../style/theme/img/portfolio/fullsize/negro-job.jpg" alt="">
+            <a class="portfolio-box" href="style/theme/img/portfolio/fullsize/negro-job.jpg">
+              <img class="img-fluid" src="style/theme/img/portfolio/fullsize/negro-job.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
@@ -161,8 +192,8 @@
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="../style/theme/img/portfolio/fullsize/empresaria.jpg">
-              <img class="img-fluid" src="../style/theme/img/portfolio/fullsize/empresaria.jpg" alt="">
+            <a class="portfolio-box" href=style/theme/img/portfolio/fullsize/empresaria.jpg">
+              <img class="img-fluid" src="style/theme/img/portfolio/fullsize/empresaria.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
@@ -176,8 +207,8 @@
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="../style/theme/img/portfolio/fullsize/trabalho.jpg">
-              <img class="img-fluid" src="../style/theme/img/portfolio/fullsize/trabalho.jpg" alt="">
+            <a class="portfolio-box" href="style/theme/img/portfolio/fullsize/trabalho.jpg">
+              <img class="img-fluid" src="style/theme/img/portfolio/fullsize/trabalho.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
@@ -191,8 +222,8 @@
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="../style/theme/img/portfolio/fullsize/mulher-negra-executiva-2017.jpg">
-              <img class="img-fluid" src="../style/theme/img/portfolio/fullsize/mulher-negra-executiva-2017.jpg" alt="">
+            <a class="portfolio-box" href="style/theme/img/portfolio/fullsize/mulher-negra-executiva-2017.jpg">
+              <img class="img-fluid" src="style/theme/img/portfolio/fullsize/mulher-negra-executiva-2017.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
@@ -206,8 +237,8 @@
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="../style/theme/img/portfolio/fullsize/mulher-reuniao.jpg">
-              <img class="img-fluid" src="../style/theme/img/portfolio/fullsize/mulher-reuniao.jpg" alt="">
+            <a class="portfolio-box" href="style/theme/img/portfolio/fullsize/mulher-reuniao.jpg">
+              <img class="img-fluid" src="style/theme/img/portfolio/fullsize/mulher-reuniao.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
@@ -235,20 +266,24 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading">Let's Get In Touch!</h2>
+            <h2 class="section-heading">Estamos te esperando</h2>
             <hr class="my-4">
-            <p class="mb-5">Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+            <p class="mb-5">Quer saber mais sobre essa ferramenta de revolução no mercado de trabalho?</p>
+            <p class="mb-5">
+              Entre em contato por email, cadastro ou por whatsapp, e consiga as melhores oportunidades 
+              do mercado
+            </p>
           </div>
         </div>
         <div class="row">
           <div class="col-lg-4 ml-auto text-center">
             <i class="fas fa-phone fa-3x mb-3 sr-contact-1"></i>
-            <p>(41) 5555 - 5555</p>
+            <p>(41)99876 - 2848</p>
           </div>
           <div class="col-lg-4 mr-auto text-center">
             <i class="fas fa-envelope fa-3x mb-3 sr-contact-2"></i>
             <p> 
-              <a href="mailto:your-email@your-domain.com">contato@nemerh.com.br</a>
+              <a href="mailto:contato@blackrh.com">contato@blackrh.com</a>
             </p>
           </div>
         </div>
@@ -256,16 +291,16 @@
     </section>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="../style/theme/vendor/jquery/jquery.min.js"></script>
-    <script src="../style/theme/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="style/theme/vendor/jquery/jquery.min.js"></script>
+    <script src="style/theme/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="../style/theme/vendor/jquery-easing/jquery.easing.min.js"></script>
-    <script src="../style/theme/vendor/scrollreveal/scrollreveal.min.js"></script>
-    <script src="../style/theme/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="style/theme/vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="style/theme/vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="style/theme/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="../style/theme/js/creative.min.js"></script>
+    <script src="style/theme/js/creative.min.js"></script>
 
   </body>
 
