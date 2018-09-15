@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>RH</title>
+    <title>BlackRH</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../style/theme/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -31,7 +31,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Neme RH</a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Black RH</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -59,7 +59,7 @@
         <div class="row">
           <div class="col-lg-10 mx-auto">
             <h1 class="text-uppercase">
-              <strong>Your Favorite Source of Free Bootstrap Themes</strong>
+              <strong>NOVAS OPORTUNIDADES DE TRABALHO, TODOS OS DIAS!!!</strong>
             </h1>
             <hr>
           </div>
@@ -131,8 +131,8 @@
       <div class="container-fluid p-0">
         <div class="row no-gutters popup-gallery">
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="../style/theme/img/portfolio/fullsize/1.jpg">
-              <img class="img-fluid" src="../style/theme/img/portfolio/thumbnails/1.jpg" alt="">
+            <a class="portfolio-box" href="../style/theme/img/portfolio/fullsize/businessman.jpg">
+              <img class="img-fluid" src="../style/theme/img/portfolio/fullsize/businessman.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
@@ -146,8 +146,8 @@
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="../style/theme/img/portfolio/fullsize/2.jpg">
-              <img class="img-fluid" src="../style/theme/img/portfolio/thumbnails/2.jpg" alt="">
+            <a class="portfolio-box" href="../style/theme/img/portfolio/fullsize/negro-job.jpg">
+              <img class="img-fluid" src="../style/theme/img/portfolio/fullsize/negro-job.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
@@ -161,8 +161,8 @@
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="../style/theme/img/portfolio/fullsize/3.jpg">
-              <img class="img-fluid" src="../style/theme/img/portfolio/thumbnails/3.jpg" alt="">
+            <a class="portfolio-box" href="../style/theme/img/portfolio/fullsize/empresaria.jpg">
+              <img class="img-fluid" src="../style/theme/img/portfolio/fullsize/empresaria.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
@@ -176,8 +176,8 @@
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="../style/theme/img/portfolio/fullsize/4.jpg">
-              <img class="img-fluid" src="../style/theme/img/portfolio/thumbnails/4.jpg" alt="">
+            <a class="portfolio-box" href="../style/theme/img/portfolio/fullsize/trabalho.jpg">
+              <img class="img-fluid" src="../style/theme/img/portfolio/fullsize/trabalho.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
@@ -191,8 +191,8 @@
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="../style/theme/img/portfolio/fullsize/5.jpg">
-              <img class="img-fluid" src="../style/theme/img/portfolio/thumbnails/5.jpg" alt="">
+            <a class="portfolio-box" href="../style/theme/img/portfolio/fullsize/mulher-negra-executiva-2017.jpg">
+              <img class="img-fluid" src="../style/theme/img/portfolio/fullsize/mulher-negra-executiva-2017.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
@@ -206,8 +206,8 @@
             </a>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <a class="portfolio-box" href="../style/theme/img/portfolio/fullsize/6.jpg">
-              <img class="img-fluid" src="../style/theme/img/portfolio/thumbnails/6.jpg" alt="">
+            <a class="portfolio-box" href="../style/theme/img/portfolio/fullsize/mulher-reuniao.jpg">
+              <img class="img-fluid" src="../style/theme/img/portfolio/fullsize/mulher-reuniao.jpg" alt="">
               <div class="portfolio-box-caption">
                 <div class="portfolio-box-caption-content">
                   <div class="project-category text-faded">
