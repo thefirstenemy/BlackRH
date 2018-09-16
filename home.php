@@ -15,6 +15,9 @@
 
     <!-- Custon BlackRH -->
     <link href="style/blackrh_style.css" rel="stylesheet">
+    <!-- Custon Bootstrap Social -->
+    <link href="style/bootstrap-social/bootstrap-social.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <!-- Custom fonts for this template -->
     <link href="style/theme/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
@@ -258,7 +261,10 @@
     <section class="bg-dark text-white">
       <div class="container text-center">
         <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
-        <a class="btn btn-light btn-xl sr-button" href="http://startbootstrap.com/template-overviews/creative/">Download Now!</a>
+        <a class="btn btn-light btn-xl sr-button" href="http://startbootstrap.com/template-overviews/creative/">Download Now!</a>        
+        <a class="btn btn-social-icon btn-twitter">
+          <span class="fa fa-twitter"></span>
+        </a>
       </div>
     </section>
 
@@ -267,6 +273,7 @@
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
             <h2 class="section-heading">Estamos te esperando</h2>
+            <h3 class="section-heading">Ubuntu!</h3>
             <hr class="my-4">
             <p class="mb-5">Quer saber mais sobre essa ferramenta de revolução no mercado de trabalho?</p>
             <p class="mb-5">
@@ -278,7 +285,7 @@
         <div class="row">
           <div class="col-lg-4 ml-auto text-center">
             <i class="fas fa-phone fa-3x mb-3 sr-contact-1"></i>
-            <p>(41)99876 - 2848</p>
+            <p>(55 - 41)99876 - 2848</p>
           </div>
           <div class="col-lg-4 mr-auto text-center">
             <i class="fas fa-envelope fa-3x mb-3 sr-contact-2"></i>
