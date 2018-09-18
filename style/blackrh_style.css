@@ -8,3 +8,24 @@
 .brh-header-font-color{
     color: #0000cc !important;
 }
+
+a{
+    color: #000000cc !important;
+}
+
+#brh-text{
+    color: #000000cc !important;
+}
+
+.brh-logo{
+    color: #0000cc !important;
+}
+
+.brh-header-logo{
+    width: 150px;
+    height: 100px;
+}
+
+#brh-detail-hr{
+    color: #0000cc !important;
+}
